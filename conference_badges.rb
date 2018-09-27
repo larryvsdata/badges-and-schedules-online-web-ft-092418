@@ -25,7 +25,15 @@ arr.each_with_index { |item, index|
 end
   
   
+def printer(arr)
+  
+  batch_badge_creator(arr).each do |item|
+    puts(item)
 
+end
+  
+  
+end
   
   
   
