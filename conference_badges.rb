@@ -5,4 +5,8 @@ def badge_maker(name)
 end
 
 
-def 
+def batch_badge_creator(arr)
+  new_arr=[]
+  
+  
+end
