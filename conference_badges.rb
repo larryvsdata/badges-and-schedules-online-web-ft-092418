@@ -17,11 +17,12 @@ end
 
 def assign_rooms(arr)
   new_arr=[]
-  arr.each do |item|
-    new_arr.push(badge_maker(item))
-
-end
+arr.each_with_index { |item, index|
+  new_arr[index] = index
+}
   new_arr
+  
+end
   
   
   
