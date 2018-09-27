@@ -18,7 +18,7 @@ end
 def assign_rooms(arr)
   new_arr=[]
 arr.each_with_index { |item, index|
-  new_arr[index] = index
+  new_arr[index] =  "Hello, #{item}! You'll be assigned to room #{index+1}!"
 }
   new_arr
   
